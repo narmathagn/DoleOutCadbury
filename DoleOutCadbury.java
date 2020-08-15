@@ -18,10 +18,15 @@ public class DoleOutCadbury{
 		return count;
 	}
 	public static void main(String args[]){
-		int minlen=5;
-		int maxlen=7;
-		int minwid=3;
-		int maxwid=4;
+		Scanner s=new scanner(System.in);
+		System.out.println("Enter the minlen:");
+		int minlen=s.nextInt();
+		System.out.println("Enter the maxlen:");
+		int maxlen=s.nextInt();
+		System.out.println("Enter the minwid:");
+		int minwid=s.nextInt();
+		System.out.println("Enter the maxwid:");
+		int maxwid=s.nextInt();
 		int sum=0;
 		for(int i=minlen;i<=maxlen;i++)
 		{
